@@ -4,27 +4,24 @@ body {
 }
 
 body a {
-  color: #1111CC;
+  color: #1111cc;
 }
 
 .google-logo {
-  background-image: url(/logo.png);
-  padding-top: 48.5px;
-  height: 96;
+  background-repeat: no-repeat;
+  background-image: url("../images/logo.png");
+  padding: 48.5px;
   width: 276px;
-  background: no-repeat;
+  height: 96px;
 }
-
 
 div.navs {
   padding: 4px 8px 4px 8px;
   border-bottom: 1px solid #c9d7f1;
-  
 }
 
 div.navs a {
-  color: #0000CC;
-  
+  color: #0000cc;
 }
 
 div.navs > ul li {
@@ -33,7 +30,6 @@ div.navs > ul li {
 
 div .search-options > ul li {
   display: inline-block;
-   
 }
 
 .input-wrapper input {
@@ -43,4 +39,14 @@ div .search-options > ul li {
 
 .extended-options {
   display: inline-block;
+}
+
+.button-wrapper input {
+}
+.button-wrapper {
+  padding: 0 6px 0 6px;
+  border-width: 1px solid #cccccc #999999 #cccccc;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  -moz-box-sizing: content-box;
 }
