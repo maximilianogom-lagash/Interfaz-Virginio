@@ -83,6 +83,9 @@ body {
   vertical-align: middle;
 }
 
+div li {
+  list-style-position: outside;
+}
 /*
 input.txbox {
   width: 535px;
