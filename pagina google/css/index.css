@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+body a {
+  color: #1111CC;
+}
+
+.google-logo {
+  background-image: url(/logo.png);
+  padding-top: 48.5px;
+  height: 96;
+  width: 276px;
+  background: no-repeat;
+}
+
+
+div.navs {
+  padding: 4px 8px 4px 8px;
+  border-bottom: 1px solid #c9d7f1;
+  
+}
+
+div.navs a {
+  color: #0000CC;
+  
+}
+
+div.navs > ul li {
+  display: inline;
+}
+
+div .search-options > ul li {
+  display: inline-block;
+   
+}
+
+.input-wrapper input {
+  width: 512px;
+  height: 32px;
+}
+
+.extended-options {
+  display: inline-block;
+}
