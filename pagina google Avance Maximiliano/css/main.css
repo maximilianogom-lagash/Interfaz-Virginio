@@ -5,7 +5,7 @@ body {
 
 a {
   text-decoration: none;
-   color: #1111CC; 
+  color: #1111cc;
 }
 
 a:hover {
@@ -22,14 +22,14 @@ a:hover {
 }
 
 #Ch {
-position: relative;
-left: 214px;
-top: 71px;
+  position: relative;
+  left: 230px;
+  top: 71px;
 }
 
 #container {
   position: relative;
-  left: 460px;
+  left: 500px;
   top: 100px;
   padding: 48.5px;
 }
@@ -40,7 +40,7 @@ div.navs {
 }
 
 div.navs a {
-  color: #0000CC;
+  color: #0000cc;
   text-decoration: underline;
   position: relative;
 }
@@ -49,7 +49,7 @@ div.navs > ul li {
   display: inline;
 }
 
-#search-types li{
+#search-types li {
   padding: 10.5px;
 }
 
@@ -64,50 +64,48 @@ div.navs > ul li {
   height: 32px;
   padding: 5px 8px 0px 6px;
   border: 1px solid;
-  border-top-color: #CCCCCC;
-  border-right-color:#999999;
-  border-left-color: #CCCCCC;
+  border-top-color: #cccccc;
+  border-right-color: #999999;
+  border-left-color: #cccccc;
   border-bottom-color: #999999;
-  font-family: 'Arial, Sans-serif';
-  font-size: 18PX;
+  font-family: "Arial, Sans-serif";
+  font-size: 18px;
   font-weight: bold;
 }
 
 div .search-options > ul li {
   display: inline-block;
   position: relative;
-  float: right;
   top: -22;
-  right: 5px;
+  left: 61.5em;
 }
 
-#busqueda{
+#busqueda {
   padding-top: 4px;
   padding-bottom: 1px;
   padding-left: 13px;
 }
 
 #herramientas {
-  list-style:none;
+  list-style: none;
   padding-left: 13px;
 }
 
-.extended-options{
+.extended-options {
   font-size: 11px;
 }
 
-.extended-options a{
-   color: #4272DB;
+.extended-options a {
+  color: #4272db;
 }
 
 .input-wrapper {
   position: relative;
-  left: 180px;
+  left: 220px;
   top: -50px;
 }
 
 .input-wrapper input {
-
 }
 .extended-options {
   display: inline-block;
@@ -130,17 +128,29 @@ div .search-options > ul li {
 
 .language {
   padding-top: 41px;
+  position: relative;
+  left: 100px;
 }
 
 .footer-navBar {
   top: 135px;
   position: relative;
 }
+.footer-navBar ul li {
+  position: relative;
+  left: 180px;
+}
 
 #style {
   float: left;
   list-style: none;
-  display:inline;
-     padding-left:3px;
-     padding-right:24px;
+  display: inline;
+  padding-left: 3px;
+  padding-right: 24px;
+}
+
+.background-image {
+  position: relative;
+  top: 250px;
+  padding-left: 8px;
 }
